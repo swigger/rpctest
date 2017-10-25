@@ -9,6 +9,7 @@
       <Filter>
       </Filter>
     </ClCompile>
+    <ClCompile Include="kms_c.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

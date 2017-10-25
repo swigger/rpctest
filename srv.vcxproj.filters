@@ -9,11 +9,16 @@
       <Filter>
       </Filter>
     </ClCompile>
+    <ClCompile Include="kms_s.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>
       </Filter>
     </ClInclude>
+    <ClInclude Include="kms_i.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="kms.idl" />
   </ItemGroup>
 </Project>
