@@ -10,6 +10,7 @@
       </Filter>
     </ClCompile>
     <ClCompile Include="kms_s.c" />
+    <ClCompile Include="shared.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -17,6 +18,7 @@
       </Filter>
     </ClInclude>
     <ClInclude Include="kms_i.h" />
+    <ClInclude Include="shared.h" />
   </ItemGroup>
   <ItemGroup>
     <Midl Include="kms.idl" />

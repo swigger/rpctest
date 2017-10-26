@@ -10,11 +10,13 @@
       </Filter>
     </ClCompile>
     <ClCompile Include="kms_c.c" />
+    <ClCompile Include="shared.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>
       </Filter>
     </ClInclude>
+    <ClInclude Include="shared.h" />
   </ItemGroup>
 </Project>

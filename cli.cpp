@@ -6,6 +6,10 @@ using std::string;
 
 int main()
 {
+	WSADATA wsd;
+	SetConsoleOutputCP(65001);
+	WSAStartup(0x202, &wsd);
+
 	RPC_WSTR cpstr = 0;
 	RpcStringBindingCompose(NULL, (RPC_WSTR)L"ncacn_ip_tcp", (RPC_WSTR)L"127.0.0.1" /*NULL*/, (RPC_WSTR)L"1689", NULL, &cpstr);
 	RpcBindingFromStringBinding(cpstr, &kms_netHandle);
@@ -21,14 +25,4 @@ int main()
 	RpcBindingFree(&kms_netHandle);
 
 	return 0;
-}
-
-void * midl_user_allocate(size_t len)
-{
-	return(malloc(len));
-}
-
-void midl_user_free(void __RPC_FAR *ptr)
-{
-	free(ptr);
 }
