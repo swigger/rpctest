@@ -1,0 +1,22 @@
+	char * hexs = 
+		"00 00 06 00 c2 ce 48 92-f1 86 f3 5f 4a bc 87 76\n"
+		"28 15 3e 43 d8 2c 3e b7-a7 6e cb f6 e9 a6 4e d5\n"
+		"0d 55 95 2a 43 20 b7 90-af b4 c6 ed f4 57 33 83\n"
+		"b8 9c 55 c5 54 9e 59 83-1b 48 32 88 56 69 19 a8\n"
+		"85 c1 4c de c0 d1 82 70-1a 97 ca e6 20 af 6b 2c\n"
+		"ab 1e b3 70 3e 3b 53 98-3b 70 98 5c 73 d0 23 06\n"
+		"06 7b 73 1b 7a 9c 0f 5b-6d 8d b3 e3 04 4e 16 47\n"
+		"4f 62 c8 e9 ce 49 00 0b-90 f4 4c 25 72 8f 74 1e\n"
+		"eb 5e 53 fd d0 72 02 11-f2 62 49 fc 8d ca 84 8a\n"
+		"5e bf bd 42 4b 66 d9 49-51 98 84 51 fd c3 1b 42\n"
+		"c1 8b 7f 79 d5 c2 78 25-9d 10 3d af 85 4a 96 b9\n"
+		"21 81 3f 9d 37 81 e5 b9-e6 ae 8a 03 12 c3 6c 41\n"
+		"27 e9 3a c0 44 06 77 95-19 13 af fc 1e d9 7f 82\n"
+		"34 c3 66 9c 6e 83 80 7a-10 7f 54 fd 3f ef 1f 89\n"
+		"30 b4 19 09 e7 7d a9 ae-d0 36 32 57 bb 04 ae 12\n"
+		"59 87 f3 61 33 76 58 d1-2b a1 5b 72 01 55 1e 7f\n"
+		"a7 77 58 11                                    \n";
+	string sa = Helper::decode16(hexs);
+	string so;
+	kms_io(sa.c_str(), sa.size(), so);
+	return 0;

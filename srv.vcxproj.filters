@@ -11,6 +11,9 @@
     </ClCompile>
     <ClCompile Include="kms_s.c" />
     <ClCompile Include="shared.cpp" />
+    <ClCompile Include="aes.cpp" />
+    <ClCompile Include="kms_io.cpp" />
+    <ClCompile Include="dbgdump.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -19,6 +22,9 @@
     </ClInclude>
     <ClInclude Include="kms_i.h" />
     <ClInclude Include="shared.h" />
+    <ClInclude Include="aes.h" />
+    <ClInclude Include="kms_io.h" />
+    <ClInclude Include="dbgdump.h" />
   </ItemGroup>
   <ItemGroup>
     <Midl Include="kms.idl" />

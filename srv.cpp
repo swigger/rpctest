@@ -1,14 +1,24 @@
 #include "stdafx.h"
 #include "kms_i.h"
 #include "shared.h"
+#include "kms_io.h"
 
 extern "C"
 int RequestActivation(int requestSize, unsigned char *request, int *responseSize, unsigned char **response)
 {
-	const char * rr = "world";
-	*response = (unsigned char*) strdup(rr);
-	*responseSize = (int) strlen(rr) + 1;
-	return 0;
+	string rr;
+	int rv = kms_io(request, requestSize, rr);
+	if (rv == 0)
+	{
+		*response = (unsigned char*)memcpy(malloc(rr.size()), rr.data(), rr.size());
+		*responseSize = (int)rr.size();
+	}
+	else
+	{
+		*responseSize = 0;
+		*response = 0;
+	}
+	return rv;
 }
 
 void Shutdown(void)
@@ -24,7 +34,7 @@ int main()
 	WSAStartup(0x202, &wsd);
 
 	//RpcServerUseProtseqEp("ncacn_np", 20, "\\pipe\\unique.name", NULL);
-	LONG a = RpcServerUseProtseqEp((RPC_WSTR)L"ncacn_ip_tcp", RPC_C_PROTSEQ_MAX_REQS_DEFAULT, (RPC_WSTR)L"1689", NULL);
+	LONG a = RpcServerUseProtseqEp((RPC_WSTR)L"ncacn_ip_tcp", RPC_C_PROTSEQ_MAX_REQS_DEFAULT, (RPC_WSTR)L"1688", NULL);
 	if (a)
 	{
 		fprintf(stderr, "RpcServerUseProtseqEp error: %d %s\n", a, errmsg(a).c_str());
@@ -39,4 +49,14 @@ int main()
 	}
 
 	return RpcServerListen(0, RPC_C_LISTEN_MAX_CALLS_DEFAULT, 0/*block*/);
+}
+
+void * midl_user_allocate(size_t len)
+{
+	return(malloc(len));
+}
+
+void midl_user_free(void __RPC_FAR *ptr)
+{
+	free(ptr);
 }

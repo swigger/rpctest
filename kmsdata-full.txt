@@ -1,0 +1,2036 @@
+================ Apps: ================
+Guid: {55C92734-D682-4D71-983E-D6EC3F16059F}
+Name: Windows
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 0
+NCountPolicy: 50
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {59A52881-A989-479D-AF46-F275C6370663}
+Name: Office2010
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 0
+NCountPolicy: 10
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {0FF1CE15-A989-479D-AF46-F275C6370663}
+Name: Office2013+
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 0
+NCountPolicy: 10
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+
+
+
+================ Kmss: ================
+Guid: {D27CD636-1962-44E9-8B4F-27B6C23EFB85}
+Name: Windows 10 Unknown (Volume)
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {7BA0BF23-D0F5-4072-91D9-D55AF5A481B6}
+Name: Windows 10 China Government
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 4
+reserved: 0
+Guid: {969FE3C0-A3EC-491A-9F25-423605DEB365}
+Name: Windows 10 2016 (Volume)
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {E1C51358-FE3E-4203-A4A2-3B6B20C9734E}
+Name: Windows 10 (Retail)
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {58E2134F-8E11-4D17-9CB2-91069C151148}
+Name: Windows 10 2015 (Volume)
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {7FDE5219-FBFA-484A-82C9-34D1AD53E856}
+Name: Windows 7
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {BBB97B3B-8CA4-4A28-9717-89FABD42C4AC}
+Name: Windows 8 (Retail)
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {3C40B358-5948-45AF-923B-53D21FCC7E79}
+Name: Windows 8 (Volume)
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {6D646890-3606-461A-86AB-598BB84ACE82}
+Name: Windows 8.1 (Retail)
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {CB8FC780-2C05-495A-9710-85AFFFC904D7}
+Name: Windows 8.1 (Volume)
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {5F94A0BB-D5A0-4081-A685-5819418B2FE0}
+Name: Windows Preview
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 0
+reserved: 0
+Guid: {33E156E4-B76F-4A52-9F91-F641DD95AC48}
+Name: Windows Server 2008 A (Web and HPC)
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {8FE53387-3087-4447-8985-F75132215AC9}
+Name: Windows Server 2008 B (Standard and Enterprise)
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {8A21FDF3-CBC5-44EB-83F3-FE284E6680A7}
+Name: Windows Server 2008 C (Datacenter)
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {0FC6CCAF-FF0E-4FAE-9D08-4370785BF7ED}
+Name: Windows Server 2008 R2 A (Web and HPC)
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {CA87F5B6-CD46-40C0-B06D-8ECD57A4373F}
+Name: Windows Server 2008 R2 B (Standard and Enterprise)
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {B2CA2689-A9A8-42D7-938D-CF8E9F201958}
+Name: Windows Server 2008 R2 C (Datacenter)
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {8665CB71-468C-4AA3-A337-CB9BC9D5EAAC}
+Name: Windows Server 2012
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {8456EFD3-0C04-4089-8740-5B7238535A65}
+Name: Windows Server 2012 R2
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {6E9FC069-257D-4BC4-B4A7-750514D32743}
+Name: Windows Server 2016
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {6D5F5270-31AC-433E-B90A-39892923C657}
+Name: Windows Server Preview
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 0
+reserved: 0
+Guid: {212A64DC-43B1-4D3D-A30C-2FC69D2095C6}
+Name: Windows Vista
+AppIndex: 0
+KmsIndex: 0
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {E85AF946-2E25-47B7-83E1-BEBCEBEAC611}
+Name: Office 2010
+AppIndex: 1
+KmsIndex: 0
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {E6A6F1BF-9D40-40C3-AA9F-C77BA21578C0}
+Name: Office 2013
+AppIndex: 2
+KmsIndex: 0
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {AA4C7968-B9DA-4680-92B6-ACB25E2F866C}
+Name: Office 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 0
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {85B5F61B-320B-4BE3-814A-B76B2BFAFC82}
+Name: Office 2016
+AppIndex: 2
+KmsIndex: 0
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+
+
+================ Skus: ================
+Guid: {E0B2D383-D112-413F-8A80-97F373A5820C}
+Name: Windows 10 Enterprise G
+AppIndex: 0
+KmsIndex: 1
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 4
+reserved: 0
+Guid: {E38454FB-41A4-4F59-A5DC-25080E354730}
+Name: Windows 10 Enterprise GN
+AppIndex: 0
+KmsIndex: 1
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 4
+reserved: 0
+Guid: {2D5A5A60-3040-48BF-BEB0-FCD770C20CE0}
+Name: Windows 10 Enterprise 2016 LTSB
+AppIndex: 0
+KmsIndex: 2
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {9F776D83-7156-45B2-8A5C-359B9C9F22A3}
+Name: Windows 10 Enterprise 2016 LTSB N
+AppIndex: 0
+KmsIndex: 2
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {58E97C99-F377-4EF1-81D5-4AD5522B5FD8}
+Name: Windows 10 Home
+AppIndex: 0
+KmsIndex: 3
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {A9107544-F4A0-4053-A96A-1479ABDEF912}
+Name: Windows 10 Home Country Specific
+AppIndex: 0
+KmsIndex: 3
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {7B9E1751-A8DA-4F75-9560-5FADFE3D8E38}
+Name: Windows 10 Home N
+AppIndex: 0
+KmsIndex: 3
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {CD918A57-A41B-4C82-8DCE-1A538E221A83}
+Name: Windows 10 Home Single Language
+AppIndex: 0
+KmsIndex: 3
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {E0C42288-980C-4788-A014-C080D2E1926E}
+Name: Windows 10 Education
+AppIndex: 0
+KmsIndex: 4
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {3C102355-D027-42C6-AD23-2E7EF8A02585}
+Name: Windows 10 Education N
+AppIndex: 0
+KmsIndex: 4
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {73111121-5638-40F6-BC11-F1D7B0D64300}
+Name: Windows 10 Enterprise
+AppIndex: 0
+KmsIndex: 4
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {7B51A46C-0C04-4E8F-9AF4-8496CCA90D5E}
+Name: Windows 10 Enterprise 2015 LTSB
+AppIndex: 0
+KmsIndex: 4
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {87B838B7-41B6-4590-8318-5797951D8529}
+Name: Windows 10 Enterprise 2015 LTSB N
+AppIndex: 0
+KmsIndex: 4
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {E272E3E2-732F-4C65-A8F0-484747D0D947}
+Name: Windows 10 Enterprise N
+AppIndex: 0
+KmsIndex: 4
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {82BBC092-BC50-4E16-8E18-B74FC486AEC3}
+Name: Windows 10 Professional Workstation
+AppIndex: 0
+KmsIndex: 4
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {4B1571D3-BAFB-4B40-8087-A961BE2CAF65}
+Name: Windows 10 Professional Workstation N
+AppIndex: 0
+KmsIndex: 4
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {2DE67392-B7A7-462A-B1CA-108DD189F588}
+Name: Windows 10 Professional
+AppIndex: 0
+KmsIndex: 4
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {3F1AFC82-F8AC-4F6C-8005-1D233E606EEE}
+Name: Windows 10 Professional Education
+AppIndex: 0
+KmsIndex: 4
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {5300B18C-2E33-4DC2-8291-47FFCEC746DD}
+Name: Windows 10 Professional Education N
+AppIndex: 0
+KmsIndex: 4
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {A80B5ABF-76AD-428B-B05D-A47D2DFFEEBF}
+Name: Windows 10 Professional N
+AppIndex: 0
+KmsIndex: 4
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {FF808201-FEC6-4FD4-AE16-ABBDDADE5706}
+Name: Windows 10 Professional Preview
+AppIndex: 0
+KmsIndex: 4
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {43F2AB05-7C87-4D56-B27C-44D0F9A3DABD}
+Name: Windows 10 Enterprise Preview
+AppIndex: 0
+KmsIndex: 4
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {AE2EE509-1B34-41C0-ACB7-6D4650168915}
+Name: Windows 7 Enterprise
+AppIndex: 0
+KmsIndex: 5
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {46BBED08-9C7B-48FC-A614-95250573F4EA}
+Name: Windows 7 Enterprise E
+AppIndex: 0
+KmsIndex: 5
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {1CB6D605-11B3-4E14-BB30-DA91C8E3983A}
+Name: Windows 7 Enterprise N
+AppIndex: 0
+KmsIndex: 5
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {B92E9980-B9D5-4821-9C94-140F632F6312}
+Name: Windows 7 Professional
+AppIndex: 0
+KmsIndex: 5
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {5A041529-FEF8-4D07-B06F-B59B573B32D2}
+Name: Windows 7 Professional E
+AppIndex: 0
+KmsIndex: 5
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {54A09A0D-D57B-4C10-8B69-A842D6590AD5}
+Name: Windows 7 Professional N
+AppIndex: 0
+KmsIndex: 5
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {DB537896-376F-48AE-A492-53D0547773D0}
+Name: Windows 7 Embedded POSReady
+AppIndex: 0
+KmsIndex: 5
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {E1A8296A-DB37-44D1-8CCE-7BC961D59C54}
+Name: Windows 7 Embedded Standard
+AppIndex: 0
+KmsIndex: 5
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {AA6DD3AA-C2B4-40E2-A544-A6BBB3F5C395}
+Name: Windows 7 ThinPC
+AppIndex: 0
+KmsIndex: 5
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {C04ED6BF-55C8-4B47-9F8E-5A1F31CEEE60}
+Name: Windows 8 Core
+AppIndex: 0
+KmsIndex: 6
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {9D5584A2-2D85-419A-982C-A00888BB9DDF}
+Name: Windows 8 Core Country Specific
+AppIndex: 0
+KmsIndex: 6
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {197390A0-65F6-4A95-BDC4-55D58A3B0253}
+Name: Windows 8 Core N
+AppIndex: 0
+KmsIndex: 6
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {8860FCD4-A77B-4A20-9045-A150FF11D609}
+Name: Windows 8 Core Single Language
+AppIndex: 0
+KmsIndex: 6
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {A00018A3-F20F-4632-BF7C-8DAA5351C914}
+Name: Windows 8 Professional WMC
+AppIndex: 0
+KmsIndex: 6
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {10018BAF-CE21-4060-80BD-47FE74ED4DAB}
+Name: Windows 8 Embedded Industry Professional
+AppIndex: 0
+KmsIndex: 7
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {18DB1848-12E0-4167-B9D7-DA7FCDA507DB}
+Name: Windows 8 Embedded Industry Enterprise
+AppIndex: 0
+KmsIndex: 7
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {458E1BEC-837A-45F6-B9D5-925ED5D299DE}
+Name: Windows 8 Enterprise
+AppIndex: 0
+KmsIndex: 7
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {E14997E7-800A-4CF7-AD10-DE4B45B578DB}
+Name: Windows 8 Enterprise N
+AppIndex: 0
+KmsIndex: 7
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {A98BCD6D-5343-4603-8AFE-5908E4611112}
+Name: Windows 8 Professional
+AppIndex: 0
+KmsIndex: 7
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {EBF245C1-29A8-4DAF-9CB1-38DFC608A8C8}
+Name: Windows 8 Professional N
+AppIndex: 0
+KmsIndex: 7
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {FE1C3238-432A-43A1-8E25-97E7D1EF10F3}
+Name: Windows 8.1 Core
+AppIndex: 0
+KmsIndex: 8
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {FFEE456A-CD87-4390-8E07-16146C672FD0}
+Name: Windows 8.1 Core ARM
+AppIndex: 0
+KmsIndex: 8
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {DB78B74F-EF1C-4892-ABFE-1E66B8231DF6}
+Name: Windows 8.1 Core Country Specific
+AppIndex: 0
+KmsIndex: 8
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {78558A64-DC19-43FE-A0D0-8075B2A370A3}
+Name: Windows 8.1 Core N
+AppIndex: 0
+KmsIndex: 8
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {C72C6A1D-F252-4E7E-BDD1-3FCA342ACB35}
+Name: Windows 8.1 Core Single Language
+AppIndex: 0
+KmsIndex: 8
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {E58D87B5-8126-4580-80FB-861B22F79296}
+Name: Windows 8.1 Professional Student
+AppIndex: 0
+KmsIndex: 8
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {CAB491C7-A918-4F60-B502-DAB75E334F40}
+Name: Windows 8.1 Professional Student N
+AppIndex: 0
+KmsIndex: 8
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {096CE63D-4FAC-48A9-82A9-61AE9E800E5F}
+Name: Windows 8.1 Professional WMC
+AppIndex: 0
+KmsIndex: 8
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 1
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {E9942B32-2E55-4197-B0BD-5FF58CBA8860}
+Name: Windows 8.1 Core Connected
+AppIndex: 0
+KmsIndex: 9
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {BA998212-460A-44DB-BFB5-71BF09D1C68B}
+Name: Windows 8.1 Core Connected Country Specific
+AppIndex: 0
+KmsIndex: 9
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {C6DDECD6-2354-4C19-909B-306A3058484E}
+Name: Windows 8.1 Core Connected N
+AppIndex: 0
+KmsIndex: 9
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {B8F5E3A3-ED33-4608-81E1-37D6C9DCFD9C}
+Name: Windows 8.1 Core Connected Single Language
+AppIndex: 0
+KmsIndex: 9
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {81671AAF-79D1-4EB1-B004-8CBBE173AFEA}
+Name: Windows 8.1 Enterprise
+AppIndex: 0
+KmsIndex: 9
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {113E705C-FA49-48A4-BEEA-7DD879B46B14}
+Name: Windows 8.1 Enterprise N
+AppIndex: 0
+KmsIndex: 9
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {C06B6981-D7FD-4A35-B7B4-054742B7AF67}
+Name: Windows 8.1 Professional
+AppIndex: 0
+KmsIndex: 9
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {7476D79F-8E48-49B4-AB63-4D0B813A16E4}
+Name: Windows 8.1 Professional N
+AppIndex: 0
+KmsIndex: 9
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {0AB82D54-47F4-4ACB-818C-CC5BF0ECB649}
+Name: Windows 8.1 Embedded Industry Professional
+AppIndex: 0
+KmsIndex: 9
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {F7E88590-DFC7-4C78-BCCB-6F3865B99D1A}
+Name: Windows 8.1 Embedded Industry Automotive
+AppIndex: 0
+KmsIndex: 9
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {CD4E2D9F-5059-4A50-A92D-05D5BB1267C7}
+Name: Windows 8.1 Embedded Industry Enterprise
+AppIndex: 0
+KmsIndex: 9
+ProtocolVersion: 6
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {CDE952C7-2F96-4D9D-8F2B-2D349F64FC51}
+Name: Windows 10 Enterprise Preview
+AppIndex: 0
+KmsIndex: 10
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 0
+reserved: 0
+Guid: {A4383E6B-DADA-423D-A43D-F25678429676}
+Name: Windows 10 Professional Preview
+AppIndex: 0
+KmsIndex: 10
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 0
+reserved: 0
+Guid: {CF59A07B-1A2A-4BE0-BFE0-423B5823E663}
+Name: Windows 10 Professional WMC Preview
+AppIndex: 0
+KmsIndex: 10
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 0
+reserved: 0
+Guid: {2B9C337F-7A1D-4271-90A3-C6855A2B8A1C}
+Name: Windows 8.x Preview
+AppIndex: 0
+KmsIndex: 10
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 0
+reserved: 0
+Guid: {631EAD72-A8AB-4DF8-BBDF-372029989BDD}
+Name: Windows 8.x Preview ARM
+AppIndex: 0
+KmsIndex: 10
+ProtocolVersion: 5
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 0
+reserved: 0
+Guid: {DDFA9F7C-F09E-40B9-8C1A-BE877A9A7F4B}
+Name: Windows Server 2008 Web
+AppIndex: 0
+KmsIndex: 11
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {7AFB1156-2C1D-40FC-B260-AAB7442B62FE}
+Name: Windows Server 2008 Compute Cluster
+AppIndex: 0
+KmsIndex: 11
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {AD2542D4-9154-4C6D-8A44-30F11EE96989}
+Name: Windows Server 2008 Standard
+AppIndex: 0
+KmsIndex: 12
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {2401E3D0-C50A-4B58-87B2-7E794B7D2607}
+Name: Windows Server 2008 Standard without Hyper-V
+AppIndex: 0
+KmsIndex: 12
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {C1AF4D90-D1BC-44CA-85D4-003BA33DB3B9}
+Name: Windows Server 2008 Enterprise
+AppIndex: 0
+KmsIndex: 12
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {8198490A-ADD0-47B2-B3BA-316B12D647B4}
+Name: Windows Server 2008 Enterprise without Hyper-V
+AppIndex: 0
+KmsIndex: 12
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {68B6E220-CF09-466B-92D3-45CD964B9509}
+Name: Windows Server 2008 Datacenter
+AppIndex: 0
+KmsIndex: 13
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {FD09EF77-5647-4EFF-809C-AF2B64659A45}
+Name: Windows Server 2008 Datacenter without Hyper-V
+AppIndex: 0
+KmsIndex: 13
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {01EF176B-3E0D-422A-B4F8-4EA880035E8F}
+Name: Windows Server 2008 for Itanium
+AppIndex: 0
+KmsIndex: 13
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {F772515C-0E87-48D5-A676-E6962C3E1195}
+Name: Windows MultiPoint Server 2010
+AppIndex: 0
+KmsIndex: 14
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {A78B8BD9-8017-4DF5-B86A-09F756AFFA7C}
+Name: Windows Server 2008 R2 Web
+AppIndex: 0
+KmsIndex: 14
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {CDA18CF3-C196-46AD-B289-60C072869994}
+Name: Windows Server 2008 R2 HPC Edition
+AppIndex: 0
+KmsIndex: 14
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {68531FB9-5511-4989-97BE-D11A0F55633F}
+Name: Windows Server 2008 R2 Standard
+AppIndex: 0
+KmsIndex: 15
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {620E2B3D-09E7-42FD-802A-17A13652FE7A}
+Name: Windows Server 2008 R2 Enterprise
+AppIndex: 0
+KmsIndex: 15
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {7482E61B-C589-4B7F-8ECC-46D455AC3B87}
+Name: Windows Server 2008 R2 Datacenter
+AppIndex: 0
+KmsIndex: 16
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {8A26851C-1C7E-48D3-A687-FBCA9B9AC16B}
+Name: Windows Server 2008 R2 for Itanium Enterprise
+AppIndex: 0
+KmsIndex: 16
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {D3643D60-0C42-412D-A7D6-52E6635327F6}
+Name: Windows Server 2012 Datacenter
+AppIndex: 0
+KmsIndex: 17
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {95FD1C83-7DF5-494A-BE8B-1300E1C9D1CD}
+Name: Windows Server 2012 MultiPoint Premium
+AppIndex: 0
+KmsIndex: 17
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {7D5486C7-E120-4771-B7F1-7B56C6D3170C}
+Name: Windows Server 2012 MultiPoint Standard
+AppIndex: 0
+KmsIndex: 17
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {F0F5EC41-0D55-4732-AF02-440A44A3CF0F}
+Name: Windows Server 2012 Standard
+AppIndex: 0
+KmsIndex: 17
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {B743A2BE-68D4-4DD3-AF32-92425B7BB623}
+Name: Windows Server 2012 R2 Cloud Storage
+AppIndex: 0
+KmsIndex: 18
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {00091344-1EA4-4F37-B789-01750BA6988C}
+Name: Windows Server 2012 R2 Datacenter
+AppIndex: 0
+KmsIndex: 18
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {21DB6BA4-9A7B-4A14-9E29-64A60C59301D}
+Name: Windows Server 2012 R2 Essentials
+AppIndex: 0
+KmsIndex: 18
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {B3CA044E-A358-4D68-9883-AAA2941ACA99}
+Name: Windows Server 2012 R2 Standard
+AppIndex: 0
+KmsIndex: 18
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {3DBF341B-5F6C-4FA7-B936-699DCE9E263F}
+Name: Windows Server 2016 Azure Core
+AppIndex: 0
+KmsIndex: 19
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {7B4433F4-B1E7-4788-895A-C45378D38253}
+Name: Windows Server 2016 Cloud Storage
+AppIndex: 0
+KmsIndex: 19
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {21C56779-B449-4D20-ADFC-EECE0E1AD74B}
+Name: Windows Server 2016 Datacenter
+AppIndex: 0
+KmsIndex: 19
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {2B5A1B0F-A5AB-4C54-AC2F-A6D94824A283}
+Name: Windows Server 2016 Essentials
+AppIndex: 0
+KmsIndex: 19
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {8C1C5410-9F39-4805-8C9D-63A07706358F}
+Name: Windows Server 2016 Standard
+AppIndex: 0
+KmsIndex: 19
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {BA947C44-D19D-4786-B6AE-22770BC94C54}
+Name: Windows Server 2016 Datacenter Preview
+AppIndex: 0
+KmsIndex: 20
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 0
+reserved: 0
+Guid: {4F3D1606-3FEA-4C01-BE3C-8D671C401E3B}
+Name: Windows Vista Business
+AppIndex: 0
+KmsIndex: 21
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {2C682DC2-8B68-4F63-A165-AE291D4CF138}
+Name: Windows Vista Business N
+AppIndex: 0
+KmsIndex: 21
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {CFD8FF08-C0D7-452B-9F60-EF5C70C32094}
+Name: Windows Vista Enterprise
+AppIndex: 0
+KmsIndex: 21
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {D4F54950-26F2-4FB4-BA21-FFAB16AFCADE}
+Name: Windows Vista Enterprise N
+AppIndex: 0
+KmsIndex: 21
+ProtocolVersion: 4
+NCountPolicy: 25
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 0
+reserved: 0
+Guid: {8CE7E872-188C-4B98-9D90-F8F90B7AAD02}
+Name: Office Access 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {CEE5D470-6E3B-4FCC-8C2B-D17428568A9F}
+Name: Office Excel 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {8947D0B8-C33B-43E1-8C56-9B674C052832}
+Name: Office Groove 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {CA6B6639-4AD6-40AE-A575-14DEE07F6430}
+Name: Office InfoPath 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {09ED9640-F020-400A-ACD8-D7D867DFD9C2}
+Name: Office Mondo 1 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {EF3D4E49-A53D-4D81-A2B1-2CA6C2556B2C}
+Name: Office Mondo 2 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {AB586F5C-5256-4632-962F-FEFD8B49E6F4}
+Name: Office OneNote 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {ECB7C192-73AB-4DED-ACF4-2399B095D0CC}
+Name: Office OutLook 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {45593B1D-DFB1-4E91-BBFB-2D5D0CE2227A}
+Name: Office PowerPoint 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {6F327760-8C5C-417C-9B61-836A98287E0C}
+Name: Office Professional Plus 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {DF133FF7-BF14-4F95-AFE3-7B48E7E331EF}
+Name: Office Project Pro 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {5DC7BF61-5EC9-4996-9CCB-DF806A2D0EFE}
+Name: Office Project Standard 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {B50C4F75-599B-43E8-8DCD-1081A7967241}
+Name: Office Publisher 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {EA509E87-07A1-4A45-9EDC-EBA5A39F36AF}
+Name: Office Small Business Basics 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {9DA2A678-FB6B-4E67-AB84-60DD6A9C819A}
+Name: Office Standard 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {92236105-BB67-494F-94C7-7F7A607929BD}
+Name: Office Visio Premium 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {E558389C-83C3-4B29-ADFE-5E4D7F46C358}
+Name: Office Visio Pro 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {9ED833FF-4F92-4F36-B370-8683A4F13275}
+Name: Office Visio Standard 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {2D0882E7-A4E7-423B-8CCC-70D91E0158B1}
+Name: Office Word 2010
+AppIndex: 1
+KmsIndex: 22
+ProtocolVersion: 4
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 1
+reserved: 0
+Guid: {6EE7622C-18D8-4005-9FB7-92DB644A279B}
+Name: Office Access 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {F7461D52-7C2B-43B2-8744-EA958E0BD09A}
+Name: Office Excel 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {A30B8040-D68A-423F-B0B5-9CE292EA5A8F}
+Name: Office InfoPath 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {1B9F11E3-C85C-4E1B-BB29-879AD2C909E3}
+Name: Office Lync 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {DC981C6B-FC8E-420F-AA43-F8F33E5C0923}
+Name: Office Mondo 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {EFE1F3E6-AEA2-4144-A208-32AA872B6545}
+Name: Office OneNote 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {771C3AFA-50C5-443F-B151-FF2546D863A0}
+Name: Office OutLook 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {8C762649-97D1-4953-AD27-B7E2C25B972E}
+Name: Office PowerPoint 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {B322DA9C-A2E2-4058-9E4E-F59A6970BD69}
+Name: Office Professional Plus 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {4A5D124A-E620-44BA-B6FF-658961B33B9A}
+Name: Office Project Pro 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {427A28D1-D17C-4ABF-B717-32C780BA6F07}
+Name: Office Project Standard 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {00C79FF1-6850-443D-BF61-71CDE0DE305F}
+Name: Office Publisher 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {B13AFB38-CD79-4AE5-9F7F-EED058D750CA}
+Name: Office Standard 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {E13AC10E-75D0-4AFF-A0CD-764982CF541C}
+Name: Office Visio Pro 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {AC4EFAF0-F81F-4F61-BDF7-EA32B02AB117}
+Name: Office Visio Standard 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {D9F5B1C6-5386-495A-88F9-9AD6B41AC9B3}
+Name: Office Word 2013
+AppIndex: 2
+KmsIndex: 23
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 2
+reserved: 0
+Guid: {44B538E2-FB34-4732-81E4-644C17D2E746}
+Name: Office Access 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {9373BFA0-97B3-4587-AB73-30934461D55C}
+Name: Office Excel 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {AA286EB4-556F-4EEB-967C-C1B771B7673E}
+Name: Office Groove 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {7CCC8256-FBAA-49C6-B2A9-F5AFB4257CD2}
+Name: Office InfoPath 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {C53DFE17-CC00-4967-B188-A088A965494D}
+Name: Office Lync 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {2816A87D-E1ED-4097-B311-E2341C57B179}
+Name: Office Mondo 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {67C0F908-184F-4F64-8250-12DB797AB3C3}
+Name: Office OneNote 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {7BCE4E7A-DD80-4682-98FA-F993725803D2}
+Name: Office Outlook 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {1EC10C0A-54F6-453E-B85A-6FA1BBFEA9B7}
+Name: Office PowerPoint 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {87D2B5BF-D47B-41FB-AF62-71C382F5CC85}
+Name: Office Professional Plus 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {3CFE50A9-0E03-4B29-9754-9F193F07B71F}
+Name: Office Project Pro 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {39E49E57-AE68-4EE3-B098-26480DF3DA96}
+Name: Office Project Standard 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {15AA2117-8F79-49A8-8317-753026D6A054}
+Name: Office Publisher 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {CFBFD60E-0B5F-427D-917C-A4DF42A80E44}
+Name: Office Visio Pro 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {7012CC81-8887-42E9-B17D-4E5E42760F0D}
+Name: Office Visio Standard 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {DE9C7EB6-5A85-420D-9703-FFF11BDD4D43}
+Name: Office Word 2013 (Pre-Release)
+AppIndex: 2
+KmsIndex: 24
+ProtocolVersion: 5
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 1
+EPidIndex: 2
+reserved: 0
+Guid: {67C0FC0C-DEBA-401B-BF8B-9C8AD8395804}
+Name: Office Access 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {C3E65D36-141F-4D2F-A303-A842EE756A29}
+Name: Office Excel 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {9CAABCCB-61B1-4B4B-8BEC-D10A3C3AC2CE}
+Name: Office Mondo 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {E914EA6E-A5FA-4439-A394-A9BB3293CA09}
+Name: Office Mondo R 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {D8CACE59-33D2-4AC7-9B1B-9B72339C51C8}
+Name: Office OneNote 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {EC9D9265-9D1E-4ED0-838A-CDC20F2551A1}
+Name: Office Outlook 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {D70B1BBA-B893-4544-96E2-B7A318091C33}
+Name: Office Powerpoint 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {D450596F-894D-49E0-966A-FD39ED4C4C64}
+Name: Office Professional Plus 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {4F414197-0FC2-4C01-B68A-86CBB9AC254C}
+Name: Office Project Pro 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {829B8110-0E6F-4349-BCA4-42803577788D}
+Name: Office Project Pro 2016 XC2R
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {DA7DDABC-3FBE-4447-9E01-6AB7440B4CD4}
+Name: Office Project Standard 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {CBBACA45-556A-4416-AD03-BDA598EAA7C8}
+Name: Office Project Standard 2016 XC2R
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {041A06CB-C5B8-4772-809F-416D03D16654}
+Name: Office Publisher 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {83E04EE1-FA8D-436D-8994-D31A862CAB77}
+Name: Office Skype for Business 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {DEDFA23D-6ED1-45A6-85DC-63CAE0546DE6}
+Name: Office Standard 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {6BF301C1-B94A-43E9-BA31-D494598C47FB}
+Name: Office Visio Pro 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {B234ABE3-0857-4F9C-B05A-4DC314F85557}
+Name: Office Visio Pro 2016 XC2R
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {AA2A7821-1827-4C2C-8F1D-4513A34DDA97}
+Name: Office Visio Standard 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {361FE620-64F4-41B5-BA77-84F8E079B1F7}
+Name: Office Visio Standard 2016 XC2R
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+Guid: {BB11BADF-D8AA-470E-9311-20EAF80FE5CC}
+Name: Office Word 2016
+AppIndex: 2
+KmsIndex: 25
+ProtocolVersion: 6
+NCountPolicy: 5
+IsRetail: 0
+IsPreview: 0
+EPidIndex: 3
+reserved: 0
+
+
+================ CsVlks: ================
+epid: 03612-00206-471-104395-03-1033-14393.0000-2932016
+GroupId: 206
+MinKeyId: 471000000
+MaxKeyId: 530999999
+MinActiveClients: 50
+epid: 03612-00096-199-194893-03-1033-14393.0000-2932016
+GroupId: 96
+MinKeyId: 199000000
+MaxKeyId: 217999999
+MinActiveClients: 10
+epid: 03612-00206-234-109483-03-1033-14393.0000-2932016
+GroupId: 206
+MinKeyId: 234000000
+MaxKeyId: 255999999
+MinActiveClients: 10
+epid: 03612-00206-437-184734-03-1033-14393.0000-2932016
+GroupId: 206
+MinKeyId: 437000000
+MaxKeyId: 458999999
+MinActiveClients: 10
+epid: 03612-03858-000-000054-03-1033-14393.0000-2932016
+GroupId: 3858
+MinKeyId: 0
+MaxKeyId: 14999999
+MinActiveClients: 50

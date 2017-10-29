@@ -11,6 +11,8 @@
     </ClCompile>
     <ClCompile Include="kms_c.c" />
     <ClCompile Include="shared.cpp" />
+    <ClCompile Include="aes.cpp" />
+    <ClCompile Include="dbgdump.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -18,5 +20,7 @@
       </Filter>
     </ClInclude>
     <ClInclude Include="shared.h" />
+    <ClInclude Include="aes.h" />
+    <ClInclude Include="dbgdump.h" />
   </ItemGroup>
 </Project>

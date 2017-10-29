@@ -141,7 +141,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>RpcRT4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>RpcRT4.lib;libeay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>
       </AdditionalLibraryDirectories>
     </Link>
@@ -188,7 +188,9 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="aes.cpp" />
     <ClCompile Include="cli.cpp" />
+    <ClCompile Include="dbgdump.cpp" />
     <ClCompile Include="kms_c.c">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
@@ -198,6 +200,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="aes.h" />
+    <ClInclude Include="dbgdump.h" />
     <ClInclude Include="shared.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
