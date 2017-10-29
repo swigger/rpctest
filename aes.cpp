@@ -52,7 +52,7 @@ static const BYTE SBoxR[] = {
 
 #define GetSBoxR(x) SBoxR[x]
 
-#define AddRoundKey(d, rk) XorBlock((const BYTE *)rk, (const BYTE *)d)
+#define AddRoundKey(d, rk) XorBlock((const BYTE *)rk, (BYTE *)d)
 
 #define Mul2(word) (((word & 0x7f7f7f7f) << 1) ^ (((word & 0x80808080) >> 7) * 0x1b))
 #define Mul3(word) (Mul2(word) ^ word)
@@ -157,7 +157,7 @@ void AesEncryptBlock(const AesCtx *const Ctx, BYTE *block)
 	AddRoundKey(block, &Ctx->Key[Ctx->rounds << 2]);
 }
 
-void XorBlock(const BYTE *const in, const BYTE *out) // Ensure that this is always 32 bit aligned
+void XorBlock(const BYTE *const in, BYTE *out) // Ensure that this is always 32 bit aligned
 {
 	/*UAA64( out, 0 ) ^= UAA64( in, 0 );
 	UAA64( out, 1 ) ^= UAA64( in, 1 );*/
@@ -168,28 +168,6 @@ void XorBlock(const BYTE *const in, const BYTE *out) // Ensure that this is alwa
 	{
 		((DWORD*)out)[i] ^= ((DWORD*)in)[i];
 	}
-}
-
-
-void AesCmacV4(BYTE *Message, size_t MessageSize, BYTE *MacOut)
-{
-	size_t i;
-	BYTE mac[AES_BLOCK_BYTES];
-	AesCtx Ctx;
-
-	AesInitKey(&Ctx, AesKeyV4, FALSE, V4_KEY_BYTES);
-
-	memset(mac, 0, sizeof(mac));
-	memset(Message + MessageSize, 0, AES_BLOCK_BYTES);
-	Message[MessageSize] = 0x80;
-
-	for (i = 0; i <= MessageSize; i += AES_BLOCK_BYTES)
-	{
-		XorBlock(Message + i, mac);
-		AesEncryptBlock(&Ctx, mac);
-	}
-
-	memcpy(MacOut, mac, AES_BLOCK_BYTES);
 }
 
 void AesEncryptCbc(const AesCtx *const Ctx, BYTE * iv, BYTE * data, size_t * len)

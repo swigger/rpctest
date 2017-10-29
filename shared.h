@@ -205,3 +205,9 @@ bool all_same(Iter beg, Iter end)
 	}
 	return true;
 }
+
+template <class T>
+void memcpy_obj(T & dst, const T & src)
+{
+	memcpy(&dst, &src, sizeof(T));
+}

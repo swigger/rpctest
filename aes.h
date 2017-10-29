@@ -14,13 +14,12 @@ typedef struct {
 	uint_fast8_t rounds;
 } AesCtx;
 
-void XorBlock(const BYTE *const pin, const BYTE *pout);
+void XorBlock(const BYTE *const pin, BYTE *pout);
 void AesInitKey(AesCtx *Ctx, const BYTE *Key, int_fast8_t IsV6, int AesKeyBytes);
 void AesEncryptBlock(const AesCtx *const Ctx, BYTE *block);
 void AesDecryptBlock(const AesCtx *const Ctx, BYTE *block);
 void AesEncryptCbc(const AesCtx *const Ctx, BYTE * iv, BYTE * data, size_t * len);
 void AesDecryptCbc(const AesCtx *const Ctx, BYTE *iv, BYTE *data, size_t len);
-void AesCmacV4(BYTE *data, size_t len, BYTE *hash);
 
 extern const BYTE AesKeyV4[];
 extern const BYTE AesKeyV5[];

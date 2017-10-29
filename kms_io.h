@@ -22,6 +22,11 @@ typedef struct {
 } /*__packed*/ REQUEST;
 
 typedef struct {
+	REQUEST RequestBase;            // Base request
+	BYTE MAC[16];                   // Aes 160 bit CMAC
+} /*__packed*/ REQUEST_V4;
+
+typedef struct {
 	DWORD Version;                  // unencrypted version info
 	BYTE IV[16];                    // IV
 	REQUEST RequestBase;            // Base Request
@@ -38,6 +43,11 @@ typedef struct {
 	DWORD VLActivationInterval;     // Time in minutes when clients should retry activation if it was unsuccessful (default 2 hours)
 	DWORD VLRenewalInterval;        // Time in minutes when clients should renew KMS activation (default 7 days)
 } /*__packed*/ RESPONSE;
+
+typedef struct {
+	RESPONSE ResponseBase;          // Base response
+	BYTE MAC[16];                   // Aes 160 bit CMAC
+} /*__packed*/ RESPONSE_V4;
 
 typedef struct {					// not used except for sizeof(). Fields are the same as RESPONSE_V6
 	DWORD Version;
@@ -56,7 +66,7 @@ typedef struct {
 	BYTE HwId[8];					// HwId from the KMS server
 	BYTE XoredIVs[16];				// If RequestIV was used for decryption: decrypted Request IV ^ ResponseIV. If NULL IV was used for decryption: decrypted Request IV.
 	BYTE HMAC[16];					// V6 Hmac (low 16 bytes only), see kms.c CreateV6Hmac
-									//BYTE Pad[10];					// Pad is variable sized. So do not include in struct
+	//BYTE Pad[10];					// Pad is variable sized. So do not include in struct
 } /*__packed*/ RESPONSE_V6;
 
 #define RESPONSE_RESULT_OK ((1 << 10) - 1) //(9 bits)

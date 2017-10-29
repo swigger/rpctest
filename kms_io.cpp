@@ -4,14 +4,13 @@
 #include "shared.h"
 #include "dbgdump.h"
 
-
 static const CKMSServer::VLKData g_vlks[] =
 {
-	{ 206,471000000,530999999,50 },
-	{ 96,199000000,217999999,10 },
-	{ 206,234000000,255999999,10 },
-	{ 206,437000000,458999999,10 },
-	{ 3858,0,14999999,50 }
+	/* 0 */ { 96,199000000,217999999,10 },
+	/* 1 */ { 206,471000000,530999999,50 },
+	/* 2 */ { 206,234000000,255999999,10 },
+	/* 3 */ { 206,437000000,458999999,10 },
+	/* 4 */ { 3858,0,14999999,50 }
 };
 
 static const CKMSServer::KmsData_Raw g_kmss[] = {
@@ -136,7 +135,7 @@ static int8_t CreateV6Hmac(const void *const encrypt_start, uint32_t encryptSize
 	return TRUE;
 }
 
-void create_response_base(RESPONSE * base, const REQUEST * req)
+static bool create_response_base(RESPONSE * base, const REQUEST * req)
 {
 	int cnt = 0;
 	base->Version = req->Version;
@@ -148,14 +147,10 @@ void create_response_base(RESPONSE * base, const REQUEST * req)
 	base->VLActivationInterval = 60 * 5;     // Time in minutes when clients should retry activation if it was unsuccessful (default 5 hours)
 	base->VLRenewalInterval = 15 * 24 * 30;  // Time in minutes when clients should renew KMS activation (default 15 days)
 	base->Count = std::max<uint32_t>(cnt, req->N_Policy*2);   // Current activated machines. KMS server counts up to N_Policy << 1 then stops
+	return true;
 }
 
-int kms_io5(const string & req, string & reqout)
-{
-	return -1;
-}
-
-int kms_io56(AesCtx * aesCtx, const string & req, string & reqout)
+static int kms_io56(AesCtx * aesCtx, const string & req, string & reqout)
 {
 	REQUEST_V6 r;
 	memset(&r, 0, sizeof(r));
@@ -178,27 +173,30 @@ int kms_io56(AesCtx * aesCtx, const string & req, string & reqout)
 
 	dbg_dump_req(r);
 
+	WORD majorVer = r.Version >> 16;
 	RESPONSE_V6 rv6;
 	memset(&rv6, 0, sizeof(rv6));
-	create_response_base(&rv6.ResponseBase, &r.RequestBase);
+	if (!create_response_base(&rv6.ResponseBase, &r.RequestBase))
+		return E_FAIL;
 	rv6.Version = r.Version;
-
-
-	get_random_bytes(rv6.IV, sizeof(rv6.IV));
-
-	static unsigned char defhwid[] = { 0x3A, 0x1C, 0x04, 0x96, 0x00, 0xB6, 0x00, 0x76 };// HwId from the Ratiborus VM
-	// pre-fill with default HwId (not required for v5)
-	memcpy(rv6.HwId, defhwid, sizeof(rv6.HwId));
-	// Just copy decrypted request IV (using Null IV) here. Note this is identical
-	// to XORing non-decrypted request and reponse IVs
-	memcpy(rv6.XoredIVs, r.IV, sizeof(rv6.XoredIVs));
-
-
 	get_random_bytes(rv6.RandomXoredIVs, sizeof(rv6.RandomXoredIVs));
 	Sha256(rv6.RandomXoredIVs, sizeof(rv6.RandomXoredIVs), rv6.Hash);
-
 	// Xor Random bytes with decrypted request IV
 	XorBlock(r.IV, rv6.RandomXoredIVs);
+
+	if (majorVer == 6)
+	{
+		static unsigned char defhwid[] = { 0x3A, 0x1C, 0x04, 0x96, 0x00, 0xB6, 0x00, 0x76 };// HwId from the Ratiborus VM
+		memcpy_obj(rv6.HwId, defhwid);
+		get_random_bytes(rv6.IV, sizeof(rv6.IV));
+		// Just copy decrypted request IV (using Null IV) here. Note this is identical
+		// to XORing non-decrypted request and reponse IVs
+		memcpy_obj(rv6.XoredIVs, r.IV);
+	}
+	else
+	{
+		memcpy_obj(rv6.IV, r.IV);
+	}
 
 	CSerialize<PolicyBinary> sst;
 	sst << rv6.Version
@@ -213,12 +211,19 @@ int kms_io56(AesCtx * aesCtx, const string & req, string & reqout)
 		<< rv6.ResponseBase.VLRenewalInterval
 		<< rv6.RandomXoredIVs
 		<< rv6.Hash;
-	sst << rv6.HwId
-		<< rv6.XoredIVs;
-	if (sst.errpos() >= 0) return E_FAIL;
+	if (majorVer == 6)
+	{
+		sst << rv6.HwId
+			<< rv6.XoredIVs;
+		if (sst.errpos() >= 0) return E_FAIL;
 
-	CreateV6Hmac(sst.get_doc().c_str() + 4, sst.get_doc().size() - 4, 0, &rv6.ResponseBase.ClientTime, rv6.HMAC);
-	sst << rv6.HMAC;
+		CreateV6Hmac(sst.get_doc().c_str() + 4, (uint32_t) sst.get_doc().size() - 4, 0, &rv6.ResponseBase.ClientTime, rv6.HMAC);
+		sst << rv6.HMAC;
+	}
+	else
+	{
+		if (sst.errpos() >= 0) return E_FAIL;
+	}
 
 	string doc = sst.get_doc();
 	size_t sz = doc.size() - 4;
@@ -231,9 +236,53 @@ int kms_io56(AesCtx * aesCtx, const string & req, string & reqout)
 	return 0;
 }
 
+static void AesCmacV4(const void *data, size_t len, BYTE *hash)
+{
+	size_t i;
+	BYTE mac[AES_BLOCK_BYTES] = { 0x80 };
+	AesCtx Ctx;
+	string dcopy;
+
+	dcopy.append((char*)data, len);
+	dcopy.append((char*)mac, AES_BLOCK_BYTES);
+	mac[0] = 0;
+
+	AesInitKey(&Ctx, AesKeyV4, FALSE, V4_KEY_BYTES);
+	for (i = 0; i <= len; i += AES_BLOCK_BYTES)
+	{
+		XorBlock((const BYTE*)dcopy.c_str() + i, mac);
+		AesEncryptBlock(&Ctx, mac);
+	}
+	memcpy(hash, mac, AES_BLOCK_BYTES);
+}
+
+static int kms_io4(const string& reqin, string & reqout)
+{
+	REQUEST_V4 * req = (REQUEST_V4*) reqin.c_str();
+	if (reqin.size() != sizeof(REQUEST_V4)) return E_INVALIDARG;
+	RESPONSE_V4 res;
+	if (!create_response_base(&res.ResponseBase, &req->RequestBase))
+		return E_FAIL;
+
+	CSerialize<PolicyBinary> sst;
+	sst << res.ResponseBase.Version
+		<< res.ResponseBase.PIDSize
+		<< serialize_str_wrap_t<WCHAR, PID_BUFFER_SIZE>(res.ResponseBase.KmsPID)
+		<< res.ResponseBase.CMID
+		<< res.ResponseBase.ClientTime
+		<< res.ResponseBase.Count
+		<< res.ResponseBase.VLActivationInterval
+		<< res.ResponseBase.VLRenewalInterval;
+	AesCmacV4(sst.get_doc().c_str(), sst.get_doc().size(), res.MAC);
+	sst << res.MAC;
+	reqout = sst.get_doc();
+	return 0;
+}
+
+
 int kms_io(const void * reqin, size_t reqinsz, string & reqout)
 {
-	if (reqinsz < 4 || (reqinsz-4) % 16)
+	if (reqinsz < sizeof(REQUEST))
 		return E_INVALIDARG;
 	
 	WORD majorVer = ((WORD*)reqin)[1];
@@ -244,8 +293,14 @@ int kms_io(const void * reqin, size_t reqinsz, string & reqout)
 	switch (majorVer)
 	{
 	case 4:
+		if (reqinsz < sizeof(REQUEST_V4)) return E_INVALIDARG;
+		return kms_io4(reqcopy, reqout);
 		break;
 	case 5: case 6:
+		if ((reqinsz - 4) % AES_BLOCK_BYTES) return E_INVALIDARG;
+		if (majorVer == 5 && reqinsz < sizeof(REQUEST_V5)) return E_INVALIDARG;
+		if (majorVer == 6 && reqinsz < sizeof(REQUEST_V6)) return E_INVALIDARG;
+
 		if (majorVer == 5)
 			AesInitKey(&aesCtx, AesKeyV5, false, AES_KEY_BYTES);
 		else
